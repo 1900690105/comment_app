@@ -74,7 +74,6 @@ function App() {
           }
 
           if (eventType === "UPDATE") {
-            // If WE triggered this update (like/unlike), skip — our optimistic state is correct
             setComments((prev) =>
               prev.map((c) =>
                 c.id === newRow.id
