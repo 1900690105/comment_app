@@ -23,7 +23,6 @@ function App() {
 
   const commentsRef = useRef([]);
   commentsRef.current = comments;
-  const pendingLikeIds = useRef(new Set());
 
   // ── Initial fetch ──────────────────────────────────────────────
   const fetchComments = async () => {
