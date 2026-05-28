@@ -18,9 +18,7 @@ function App() {
   // Delete state
   const [deletingId, setDeletingId] = useState(null);
   const [confirmDeleteId, setConfirmDeleteId] = useState(null);
-
   const [formData, setFormData] = useState({ name: "", comment: "" });
-
   const commentsRef = useRef([]);
   commentsRef.current = comments;
 
