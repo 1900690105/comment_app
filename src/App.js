@@ -12,8 +12,6 @@ function App() {
   const [editingId, setEditingId] = useState(null);
   const [editData, setEditData] = useState({ name: "", comment: "" });
   const [updating, setUpdating] = useState(false);
-
-  // Delete state
   const [deletingId, setDeletingId] = useState(null);
   const [confirmDeleteId, setConfirmDeleteId] = useState(null);
   const [formData, setFormData] = useState({ name: "", comment: "" });
